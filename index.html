@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../dist/output.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="bg-black px-10">
+      <!-- HEADER -->
+      <div class="container mx-auto flex items-center justify-between">
+        <img class="w-12 md:w-28" src="../images/anhhtus-logo 2.png" alt="" />
+        <ul
+          id="menu"
+          class="hidden fixed top-0 left-0 flex flex-col justify-center items-center bg-green-500 w-full h-screen md:bg-transparent md:relative md:h-auto md:flex-row md:justify-end md:flex"
+        >
+          <li>
+            <a
+              class="block text-white p-4 hover:text-red-400 md:text-white"
+              href="#"
+              >HOME</a
+            >
+          </li>
+          <li>
+            <a
+              class="block text-white p-4 hover:text-red-400 md:text-white"
+              href="#"
+              >ABOUT</a
+            >
+          </li>
+          <li>
+            <a
+              class="block text-white p-4 hover:text-red-400 md:text-white"
+              href="#"
+              >PORTFOLIO</a
+            >
+          </li>
+          <li>
+            <a
+              class="block text-white p-4 hover:text-red-400 md:text-white"
+              href="#"
+              >CONTACT</a
+            >
+          </li>
+          <li>
+            <button
+              class="block text-white bg-green-500 px-12 py-2 rounded-3xl"
+            >
+              CV
+            </button>
+          </li>
+        </ul>
+        <div id="menu-icon" class="z-10 md:hidden text-white">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-7 w-7"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="main-conten">
+        <div
+          class="row1 flex flex-col md:flex-row justify-between container mx-auto"
+        >
+          <div>
+            <p class="text-white pt-20">Hello👋,I'm</p>
+            <h1 class="text-white text-5xl md:text-6xl pb-3">DVTOAN</h1>
+            <p class="text-green-500 pb-3">Full stack developer</p>
+            <p class="text-white pb-9">
+              I'm a computer technician with a focus on web development with
+              JavaScript.
+            </p>
+            <button
+              class="block text-white px-12 py-2 rounded-3xl bg-green-500"
+              type="submit"
+            >
+              Contact
+            </button>
+          </div>
+          <div class="hidden md:block">
+            <body onload="start()">
+              <img id="anh" class="" src="../images/0.jpg" alt="" />
+            </body>
+          </div>
+        </div>
+        <div
+          class="container mx-auto flex flex-col md:flex-row mt-24 justify-between"
+        >
+          <div>
+            <h2 class="text-white text-2xl pb-6">About me</h2>
+            <p class="text-white pb-6">
+              I'm a computer technician with a great passion for programming.
+            </p>
+            <p class="text-white pb-12">
+              Improved my skills as a Front-End and Back-End developer
+            </p>
+            <p class="text-white pb-12">
+              I develop websites and applications using HTML, CSS, and
+              JavaScript.<br />
+              I'm always improving myself with each project I get my hands on.
+            </p>
+            <p class="text-white pb-10">
+              I am a dedicated person who pursues his dreams, hardworking and
+              results oriented, I always seek to achieve my best version.
+            </p>
+            <p class="text-green-500">Here are my main skills:</p>
+            <div class="flex">
+              <img src="../images/icon1.png" alt="" />
+              <img src="../images/icon3.png" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="" alt="" />
+              <img src="../images/image 2.png" alt="" />
+            </div>
+          </div>
+          <div><img class="pt-6" src="../images/image 3.png" alt="" /></div>
+        </div>
+        <div class="container mx-auto">
+          <div class="text-center my-28">
+            <h3 class="text-white text-4xl">My portfolio</h3>
+          </div>
+          <div class="grid md:grid-cols-3 gap-5 grid-cols-1">
+            <div class="o1 bg-slate-700 mx-auto rounded-2xl">
+              <div class="o1h1 flex justify-between p-4">
+                <img src="../images/Vector.png" alt="" />
+                <img src="../images/Vector-1.png" alt="" />
+              </div>
+              <div class="text">
+                <h5 class="text-white text-lg p-4">FCalendar</h5>
+                <p class="text-white text-base p-4">
+                  Uma aplicação Web realizada durante o Hackathon do programa de
+                  formação da
+                </p>
+              </div>
+              <div class="text-end mb-5">
+                <span class="text-white text-sm p-4">Node</span>
+                <span class="text-white text-sm p-4">Express</span>
+                <span class="text-white text-sm p-4">MySql</span>
+                <span class="text-white text-sm p-4">Ejs</span>
+              </div>
+            </div>
+            <div class="o1 bg-slate-700 mx-auto rounded-2xl">
+              <div class="o1h1 flex justify-between p-4">
+                <img src="../images/Vector.png" alt="" />
+                <img src="../images/Vector-1.png" alt="" />
+              </div>
+              <div class="text">
+                <h5 class="text-white text-lg p-4">Github Searcher</h5>
+                <p class="text-white text-base p-4">
+                  Uma versão mais agradável para ver seu perfil do GitHub,
+                  inclui visualização de dados , repositórios, compartilhamento
+                  entre outros.
+                </p>
+              </div>
+              <div class="text-end mb-5">
+                <span class="text-white text-sm p-4">React</span>
+                <span class="text-white text-sm p-4">Typescript</span>
+                <span class="text-white text-sm p-4">Styled Components</span>
+              </div>
+            </div>
+            <div class="o1 bg-slate-700 mx-auto rounded-2xl">
+              <div class="o1h1 flex justify-between p-4">
+                <img src="../images/Vector.png" alt="" />
+                <img src="../images/Vector-1.png" alt="" />
+              </div>
+              <div class="text">
+                <h5 class="text-white text-lg p-4">Sunnyside agency</h5>
+                <p class="text-white text-base p-4">
+                  Uma aplicação Web realizada durante o Hackathon do programa de
+                  formação da
+                </p>
+              </div>
+              <div class="text-end mb-5">
+                <span class="text-white text-sm p-4">Html</span>
+                <span class="text-white text-sm p-4">Css</span>
+                <span class="text-white text-sm p-4">JavaScript</span>
+              </div>
+            </div>
+          </div>
+          <div class="grid md:grid-cols-3 gap-5 grid-cols-1 mt-5">
+            <div class="o1 bg-slate-700 mx-auto rounded-2xl">
+              <div class="o1h1 flex justify-between p-4">
+                <img src="../images/Vector.png" alt="" />
+                <img src="../images/Vector-1.png" alt="" />
+              </div>
+              <div class="text">
+                <h5 class="text-white text-lg p-4">Portfólio V1</h5>
+                <p class="text-white text-base p-4">
+                  Uma aplicação Web realizada durante o Hackathon do programa de
+                  formação da
+                </p>
+              </div>
+              <div class="text-end mb-5">
+                <span class="text-white text-sm p-4">Node</span>
+                <span class="text-white text-sm p-4">Express</span>
+                <span class="text-white text-sm p-4">MySql</span>
+                <span class="text-white text-sm p-4">Ejs</span>
+              </div>
+            </div>
+            <div class="o1 bg-slate-700 mx-auto rounded-2xl">
+              <div class="o1h1 flex justify-between p-4">
+                <img src="../images/Vector.png" alt="" />
+                <img src="../images/Vector-1.png" alt="" />
+              </div>
+              <div class="text">
+                <h5 class="text-white text-lg p-4">Dtmoney</h5>
+                <p class="text-white text-base p-4">
+                  Uma aplicação Web realizada durante o Hackathon do programa de
+                  formação da
+                </p>
+              </div>
+              <div class="text-end mb-5">
+                <span class="text-white text-sm p-4">Node</span>
+                <span class="text-white text-sm p-4">Express</span>
+                <span class="text-white text-sm p-4">MySql</span>
+                <span class="text-white text-sm p-4">Ejs</span>
+              </div>
+            </div>
+            <div class="o1 bg-slate-700 mx-auto rounded-2xl">
+              <div class="o1h1 flex justify-between p-4">
+                <img src="../images/Vector.png" alt="" />
+                <img src="../images/Vector-1.png" alt="" />
+              </div>
+              <div class="text">
+                <h5 class="text-white text-lg p-4">Music Library</h5>
+                <p class="text-white text-base p-4">
+                  Uma aplicação Web realizada durante o Hackathon do programa de
+                  formação da
+                </p>
+              </div>
+              <div class="text-end mb-5">
+                <span class="text-white text-sm p-4">Node</span>
+                <span class="text-white text-sm p-4">Express</span>
+                <span class="text-white text-sm p-4">MySql</span>
+                <span class="text-white text-sm p-4">Ejs</span>
+              </div>
+            </div>
+          </div>
+          <div class="text-center justify-center">
+            <div>
+              <h3 class="text-white text-4xl">Contact me</h3>
+              <p class="text-green-500 text-base">
+                If you've seen my potential or want to talk to me, don't
+                hesitate to send me a message.
+              </p>
+            </div>
+          </div>
+          <!-- <div
+                        class="nut container mx-auto flex flex-col md:flex-row my-24  text-center items-center md:w-4/6"> -->
+          <div class="md:grid md:grid-cols-2 md:w-4/6 mx-auto">
+            <div class="mx-2">
+              <button
+                class="md:flex items-center justify-center hover:bg-green-900 bg-green-700 rounded-3xl w-full h-24 text-black my-4 text-center"
+              >
+                <img class="mx-auto md:mx-0" src="../images/Icon.png" alt="" />
+                toandvph19458@fpt.edu.vn
+              </button>
+            </div>
+            <div class="mx-2">
+              <button
+                class="md:flex items-center justify-center hover:bg-green-900 bg-green-700 rounded-3xl w-full h-24 text-black my-4 text-center"
+              >
+                <img
+                  class="mx-auto md:mx-0"
+                  src="../images/Icon-1.png"
+                  alt=""
+                />
+                (+84) 961273141
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="end-main-conten text-center mx-auto container items-center justify-center"
+          >
+            <div>
+              <h6 class="text-white text-2xl pb-5">
+                Get in touch using the form below
+              </h6>
+            </div>
+            <div class="">
+              <form action="" class="text-center justify-center">
+                <input
+                  type="email"
+                  class="border border-white rounded-3xl w-96 text-white bg-black"
+                  placeholder="Email"
+                />
+                <div class="">
+                  <input
+                    type="text"
+                    class="border text-white bg-black border-white rounded-3xl pb-32 w-96 mt-7 pt-2"
+                    name=""
+                    id=""
+                    placeholder="Leave your message"
+                  />
+                </div>
+
+                <button
+                  class="block text-white px-12 py-2 rounded-3xl bg-green-500 mx-auto my-24"
+                  type="submit"
+                >
+                  To send
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="footer bg-slate-700">
+          <div
+            class="py-9 flex justify-between container flex-col md:flex-row mx-auto"
+          >
+            <div class="mx-auto">
+              <h4 class="text-white text-2xl">Anhhtus’s</h4>
+            </div>
+            <div class="mx-auto">
+              <span class="text-white">This site was made with a</span>
+              <span class="text-white">lot of❤️</span>
+            </div>
+            <div class="flex mx-auto">
+              <img class="p-2" src="../images/Rectangle.png" alt="" />
+              <img class="p-2" src="../images/Rectangle-1.png" alt="" />
+              <img class="p-2" src="../images/Rectangle-2.png" alt="" />
+              <img class="p-2" src="../images/Rectangle-3.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
